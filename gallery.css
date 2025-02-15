@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    /* background-image: url(https://img.freepik.com/premium-vector/rajasthan-3d-district-map-is-state-india_667085-267.jpg?w=740); */
+    background-size: cover;
+    background-position: center;
+
+}
+.nav_container{
+    height: 25vh;
+    
+    display: flex;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* justify-content: space-between; */
+    background-color: rgba(131, 99, 99, 0.3);
+   
+}
+.container{
+    height: 25vh;
+    width: 100vw;
+    image-resolution: 300px;
+
+  background-size:cover;
+  background-position: center;
+}
+  
+.nav_logo img{
+    padding: 15px;
+    height: 25vh;
+    width: 50vw;
+    
+   
+
+}
+.nav_links{
+    width: 50%;
+    padding: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.link{
+    list-style: none;
+}
+li{
+    gap:10px;
+}
+a{
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+
+
+
+}
+a:hover{
+    text-decoration:underline;
+    transform: scale(2);
+
+}
+.container2{
+    height: 75vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 2em;
+   margin-top: 10px;
+    padding-top: 10px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(253, 253, 253);
+    font-weight: 900;
+}
+.card{
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 50px black;
+    opacity: 0.8;
+    animation: new;
+   
+}
+/* @keyframes new {
+    to{
+        opacity: 1.2;
+    }
+} */
+.card1{
+    background-image: url(https://wallpaperaccess.com/full/8548945.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2{
+    background-image: url(https://th.bing.com/th/id/OIP.xLmiU-Wo2IcbOfUWQK_DUQHaEK?rs=1&pid=ImgDetMain) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    background-image:url(https://www.thepinnaclelist.com/wp-content/uploads/2021/12/Jaisalmer-Golden-Desert-at-Sunset-Rajasthan-India.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card4{
+    background-image:url(https://www.treebo.com/blog/wp-content/uploads/2018/08/Lake-Pichola-in-Udaipur.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card5{
+    background-image:url(https://th.bing.com/th/id/R.ca8a8102a9ea09445a22af8e866a7b46?rik=GuUBKf2PMkaqxg&riu=http%3a%2f%2fwww.rajasthantoursindia.com%2fwp-content%2fuploads%2f2020%2f03%2f6EE7337C-76CC-42EA-9DEC-1AF9E3DC9FEB.jpeg&ehk=CXG1hEneS4E3yuqQNHXM0xri5lnlQZBRHiw7sgsXIiI%3d&risl=&pid=ImgRaw&r=0) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card6{
+    background-image:url(https://i.pinimg.com/originals/ab/11/bc/ab11bc91084ae3a4b7d0677638ad0a47.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card7{
+    background-image: url(https://preview.redd.it/15klkr3r1jx41.jpg?width=960&crop=smart&auto=webp&s=5c0d1a459590e62e802f2940ca9a1026d49ccbad);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card8{
+    background-image:url(https://img.veenaworld.com/wp-content/uploads/2021/07/Karni-Mata-Temple-Bikaner-History-Timings-Nearby-Places-scaled.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card9{
+    background-image:url(https://www.themysteriousindia.net/wp-content/uploads/2015/12/Chittorgarh-The-Largest-Fort-e1450460903251.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card10{
+    background-image: url(https://img.veenaworld.com/wp-content/uploads/2021/10/Mehrangarh.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card11{
+    background-image: url(https://chokhidhani.com/welcome-indore/wp-content/uploads/2022/12/DAL-BAATI-CHURMA.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card12{
+    background-image: url(https://www.myrajasthantrip.com/wp-content/uploads/2023/05/Camels-with-traditional-dresses-Thar-desert-Rajasthan-India-1024x576-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    opacity: 1.2;
+    transform: scale(1.2);
+   transition: all 2s linear 0.3s ;
+}
+.nav_logo {
+    opacity: 0; /* Initially hidden */
+    transform: translatex(-20px); /* Slightly moved down */
+    animation: fadeIn 1s ease forwards 1s; /* 2s delay */
+    mix-blend-mode:color-burn
+}
+
+/* Keyframes for Fade-in Animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translatex(0); /* Moves back to original position */
+        mix-blend-mode:color-burn
+    }
+}
+.nav_links{
+    opacity: 0; /* Initially hidden */
+    transform: translatex(-20px); /* Slightly moved down */
+    animation: fadeIn 1s ease forwards 1s; /* 2s delay */
+    mix-blend-mode:color-burn
+}
+
+/* Keyframes for Fade-in Animation */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translatex(0); /* Moves back to original position */
+        mix-blend-mode:color-burn
+    }
+}
